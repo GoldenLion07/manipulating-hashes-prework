@@ -16,6 +16,7 @@ def first_challenge
   contacts.each do |object, data|
     data.each do |trait, value|
       if 
+        trait==:favorite_icecream_flavors
 
   #remember to return your newly altered contacts hash!
   contacts

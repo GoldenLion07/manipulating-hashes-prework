@@ -18,7 +18,7 @@ def first_challenge
       if 
         trait==:favorite_icecream_flavors
         value.delete_if {|flavor|
-        flavor==
+        flavor=="strawberry"}
 
   #remember to return your newly altered contacts hash!
   contacts
